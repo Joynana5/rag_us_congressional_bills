@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import faiss
+import faiss-cpu
 from sentence_transformers import SentenceTransformer, util
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 from huggingface_hub import hf_hub_download
